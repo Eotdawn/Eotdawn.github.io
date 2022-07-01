@@ -16,15 +16,15 @@
   <meta name="author" content="Eotdawn">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Hexo、git、docker等常用工具的命令">
+    <meta name="description" content="Hexo、git、docker、linux等常用工具的命令">
 <meta property="og:type" content="article">
 <meta property="og:title" content="常用工具命令">
 <meta property="og:url" content="http://example.com/2022/06/26/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E5%91%BD%E4%BB%A4/index.html">
 <meta property="og:site_name" content="Blog">
-<meta property="og:description" content="Hexo、git、docker等常用工具的命令">
+<meta property="og:description" content="Hexo、git、docker、linux等常用工具的命令">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-06-26T13:58:13.000Z">
-<meta property="article:modified_time" content="2022-07-01T10:06:57.709Z">
+<meta property="article:modified_time" content="2022-07-01T14:52:16.091Z">
 <meta property="article:author" content="Eotdawn">
 <meta property="article:tag" content="tool">
 <meta name="twitter:card" content="summary_large_image">
@@ -221,7 +221,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.2k 字
+          1.6k 字
         
       </span>
     
@@ -232,7 +232,7 @@
         
         
         
-          10 分钟
+          13 分钟
         
       </span>
     
@@ -295,7 +295,7 @@
 <li>git reset –hard HEAD 版本号\^\^^ 回滚到版本号的版本\上一个版本\上两个版本</li>
 <li>git restore xx 将xx文件从暂存区中删除</li>
 <li>git push 将当前分支推送到远程仓库</li>
-<li>git clone <a href="mailto:&#x67;&#105;&#116;&#x40;&#103;&#105;&#x74;&#x2e;&#x61;&#x63;&#119;&#x69;&#110;&#103;&#x2e;&#99;&#x6f;&#109;">&#x67;&#105;&#116;&#x40;&#103;&#105;&#x74;&#x2e;&#x61;&#x63;&#119;&#x69;&#110;&#103;&#x2e;&#99;&#x6f;&#109;</a>:xxx&#x2F;XXX.git 将远程仓库XXX下载到当前目录下</li>
+<li>git clone <a href="mailto:&#103;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#46;&#97;&#99;&#119;&#x69;&#110;&#103;&#46;&#x63;&#111;&#109;">&#103;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#46;&#97;&#99;&#119;&#x69;&#110;&#103;&#46;&#x63;&#111;&#109;</a>:xxx&#x2F;XXX.git 将远程仓库XXX下载到当前目录下</li>
 <li>git branch 查看所有分支和当前所处分支</li>
 <li>git branch branch_name 创建新分支</li>
 <li>git checkout branch_name 切换到branch_name这个分支</li>
@@ -319,6 +319,24 @@
 <li>docker attach xxx 进入xxx容器</li>
 <li>docker rm xxx 删除xxx容器</li>
 <li>docker stats 查看所有容器的统计信息，包括CPU、内存、存储、网络等信息</li>
+</ul>
+<h1 id="linux常用命令"><a href="#linux常用命令" class="headerlink" title="linux常用命令"></a>linux常用命令</h1><ul>
+<li>ls 列出当前目录下所有文件，蓝色的是文件夹，白色的是普通文件，绿色的是可执行文件</li>
+<li>pwd 显示当前路径</li>
+<li>cd XXX 进入XXX目录下, cd .. 返回上层目录</li>
+<li>cp XXX YYY 将XXX文件复制成YYY，XXX和YYY可以是一个路径</li>
+<li>mkdir XXX 创建目录XXX</li>
+<li>rm XXX 删除普通文件</li>
+<li>rm XXX -r 删除文件夹</li>
+<li>mv XXX YYY 将XXX文件移动到YYY，和cp命令一样，XXX和YYY可以是一个路径；重命名也是用这个命令</li>
+<li>touch XXX 创建一个XXX文件</li>
+<li>cat XXX 展示文件XXX中的内容</li>
+<li>top 查看所有进程的信息</li>
+<li>chmod +x xxx 给xxx添加可执行权限</li>
+<li>chmod -x xxx 去掉xxx的可执行权限</li>
+<li>apt-get install xxx 安装xxx软件</li>
+<li>tree 展示当前目录的文件结构</li>
+<li>find 查找路径 查找条件 例如：find &#x2F;home -name “*.txt”</li>
 </ul>
 
                 
